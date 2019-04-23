@@ -1,0 +1,16 @@
+<title>{{ .Title }}</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+{{ template "_internal/schema.html" . }}
+{{ template "_internal/google_news.html" . }}
+{{ template "_internal/opengraph.html" .}}
+{{ template "_internal/twitter_cards.html .}}
+
+<!-- Icon -->
+<link rel="icon" href="/img/logo.svg"/>
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/prism.css"/>
+
+<!-- Taruh Kode Google Analystic Di Sini -->
+{{ template "_internal/google_analystic.html" .}}
